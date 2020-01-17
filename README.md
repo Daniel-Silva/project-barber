@@ -40,12 +40,12 @@
 
 ## View Page
 
-*[Landing page](https://github.com/Daniel-Silva/project-barber/blob/master/src/img/Landing/img-2.png)
+*[Landing page]()
 
 
 ## Projeto
 
-![Calculadora](https://github.com/Daniel-Silva/projeto-calculadora-js/blob/master/src/img/calculadora.png)
+![Calculadora](https://github.com/Daniel-Silva/project-barber/blob/master/src/img/Landing/img-2.png)
 
 ## Perfil do LinkedIn 
 
