@@ -40,12 +40,20 @@
 
 ## View Page
 
-*[Landing page]()
+*[BARBER SHOP]()
 
 
 ## Projeto
 
-![Calculadora](https://github.com/Daniel-Silva/project-barber/blob/master/src/img/Landing/img-2.png)
+![Landing page](https://github.com/Daniel-Silva/project-barber/blob/master/src/img/Landing/img-1.png)
+
+![Landing page](https://github.com/Daniel-Silva/project-barber/blob/master/src/img/Landing/img-2.png)
+
+![Landing page](https://github.com/Daniel-Silva/project-barber/blob/master/src/img/Landing/img-3.png)
+
+![Landing page](https://github.com/Daniel-Silva/project-barber/blob/master/src/img/Landing/img-4.png)
+
+![Landing page](https://github.com/Daniel-Silva/project-barber/blob/master/src/img/Landing/img-5.png)
 
 ## Perfil do LinkedIn 
 
