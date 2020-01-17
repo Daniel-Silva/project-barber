@@ -34,13 +34,14 @@
 │       └── mobile-barber-shop.psd
 │  
 ├── .gitignore
-├── README.md
-└── package.json
+├── LICENSE.md
+├── package.json
+└── README.md
 ```
 
 ## View Page
 
-*[BARBER SHOP]()
+[BARBER SHOP](https://daniel-silva.github.io/project-barber/.)
 
 
 ## Projeto
