@@ -1,0 +1,37 @@
+{
+  "name": "project-barber",
+  "version": "1.0.0",
+  "description": "Este projeto foi desenvolvido para treinar meus conhecimentos em Front-end, Design, UI e UX.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Silva/project-barber.git"
+  },
+  "keywords": [
+    "barber",
+    "barber",
+    "shop",
+    "barbearia",
+    "projetos",
+    "ux",
+    "ui",
+    "html",
+    "html5",
+    "css3",
+    "responsive",
+    "design",
+    "landing",
+    "page",
+    "js",
+    "javascript"
+  ],
+  "author": "Daniel Silva <dani3l.dxp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Daniel-Silva/project-barber/issues"
+  },
+  "homepage": "https://github.com/Daniel-Silva/project-barber#readme"
+}
