@@ -9,13 +9,169 @@
         <title>BARBER SHOP | BEM-VINDO!</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+
+        <!--FONTELLO ICON-->
+        <link rel="stylesheet" href="./src/css/fontello-38d76105/css/fontello.css" >
+        <!--CSS RESET-->
+        <link rel="stylesheet" href="./src/css/reset.css">
+
+        <style>
+            svg#previous,
+            svg#next {
+                z-index:1000;
+                top:50%;
+                margin-top: -30px;
+                height: 60px;
+                position:absolute;
+                z-index: 1000;
+                cursor: pointer;
+            }
+
+            svg#previous path,
+            svg#next path {
+                fill:transparent;
+                stroke:#BB9155;
+                stroke-width: 3px;
+            }
+
+            #next{
+                right:10px;
+            }
+
+            #previous{
+                left:10px;
+                transform: rotate(180deg);
+            }
+        </style>
+
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <p>BEM-VINDO!</p>
+        <main>
+            <!--SLIDER-->
+            <header>
+                <span>
+                    <img src="./src/img/barber-shop.png" title="Logo Barber Shop">
+                </span>
+                <span>
+                    <span class="icon-facebook-squared"></span>
+                    <span class="icon-gplus-squared"></span>
+                    <span class="icon-instagram"></span>
+                    <span class="icon-pinterest-squared"></span>
+                    <span class="icon-twitter-squared"></span>
+                </span>
+
+                <!--SHAPES-->
+                <span>
+                    <span>                        
+                        <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Camada_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                            x="0px" y="0px" width="120px" height="120px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve">
+                            <switch>
+                                <foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+                                    <i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+                                    </i:pgfRef>
+                                </foreignObject>
+                                <g i:extraneous="self">
+                                    <path fill="#BB9155" d="M-0.104,60L60,120.104L120.104,60L60-0.104L-0.104,60z M111.859,60L60,111.859L8.141,60L60,8.141
+                                        L111.859,60z"/>
+                                    <path fill="#BB9155" d="M19.695,60L60,100.305L100.305,60L60,19.695L19.695,60z M91.579,60L60,91.579L28.421,60L60,28.421
+                                        L91.579,60z"/>
+                                    <path fill="#BB9155" d="M39.253,60L60,80.746L80.746,60L60,39.253L39.253,60z M69.433,60L60,69.433L50.567,60L60,50.567L69.433,60
+                                        z"/>
+                                </g>
+                            </switch>
+                        </svg>    
+                    </span>
+                    
+                    <span> 
+                        <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" id="Camada_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                            x="0px" y="0px" width="120px" height="120px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve">
+                            <switch>
+                                <foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+                                    <i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+                                    </i:pgfRef>
+                                </foreignObject>
+                                <g i:extraneous="self">
+                                    <image display="none" overflow="visible" width="178" height="124" " transform="matrix(0.6554 0 0 0.6554 1.6667 19.3633)"></image>
+                                    <circle fill="#B58D54" cx="11.75" cy="29.5" r="6.364"/>
+                                    <circle fill="#B58D54" cx="43.614" cy="29.5" r="6.364"/>
+                                    <circle fill="#B58D54" cx="75.478" cy="29.5" r="6.364"/>
+                                    <circle fill="#B58D54" cx="107.343" cy="29.5" r="6.364"/>
+                                    <circle fill="#B58D54" cx="11.75" cy="60" r="6.364"/>
+                                    <circle fill="#B58D54" cx="43.614" cy="60" r="6.364"/>
+                                    <circle fill="#B58D54" cx="75.478" cy="60" r="6.364"/>
+                                    <circle fill="#B58D54" cx="107.343" cy="60" r="6.364"/>
+                                    <circle fill="#B58D54" cx="11.75" cy="90.5" r="6.364"/>
+                                    <circle fill="#B58D54" cx="43.614" cy="90.5" r="6.364"/>
+                                    <circle fill="#B58D54" cx="75.478" cy="90.5" r="6.364"/>
+                                    <circle fill="#B58D54" cx="107.343" cy="90.5" r="6.364"/>
+                                </g>
+                            </switch>
+                        </svg>                    
+                    </span> 
+                    
+                    <span>
+                        <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" id="Camada_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                            x="0px" y="0px" width="120px" height="120px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve">
+                            <switch>
+                                <foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+                                    <i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+                                    </i:pgfRef>
+                                </foreignObject>
+                                <g i:extraneous="self">
+                                    <path fill="#B58D54" d="M60,2.02C27.98,2.02,2.02,27.98,2.02,60c0,32.02,25.96,57.98,57.98,57.98S117.98,92.02,117.98,60
+                                        C117.98,27.98,92.02,2.02,60,2.02z M60,101.72c-23.04,0-41.72-18.68-41.72-41.72c0-23.04,18.68-41.72,41.72-41.72
+                                        S101.72,36.96,101.72,60C101.72,83.04,83.04,101.72,60,101.72z"/>
+                                    <path fill="#B58D54" d="M60,36.14c-13.18,0-23.86,10.68-23.86,23.86S46.82,83.86,60,83.86S83.86,73.18,83.86,60
+                                        S73.18,36.14,60,36.14z M60,73.26c-7.32,0-13.26-5.94-13.26-13.26S52.68,46.74,60,46.74S73.26,52.68,73.26,60
+                                        S67.32,73.26,60,73.26z"/>
+                                </g>
+                            </switch>
+                        </svg>
+                    </span>
+                </span><!--END SHAPES-->
+
+                <!--ITEM SLIDER-->
+                <span>
+                    <svg id="previous" viewBox="0 0 31 101" version="1.1">
+                        <path d="M 0,0,30,50,0,100"></path>
+                    </svg>
+                    <svg id="next" viewBox="0 0 31 101" version="1.1">
+                        <path d="M 0,0,30,50,0,100"></path>
+                    </svg>
+                </span>
+                <span>Counter</span>
+
+                <!--CONTACT ITEMS-->
+                <span>
+                    <span>
+
+                        <h4>Horário</h4>
+                        <p>De seg à sáb das 10h - 20h</p>
+                        <p>Doming das 10h - 11h</p>
+                    </span>
+                    <span>
+                        <h4>Aguardamos seu contato</h4>
+                        <p>(11) 99556 - 1520</p>
+                        <p>Para reserva</p>
+                    </span>
+                    <span>
+                        <h4>Endereço</h4>
+                        <p>AV Paulista, 1226</p>
+                        <p>São Paulo | SP</p>
+                    </span>
+                </span>
+            </header><!--SLIDER END-->
+        </main>
         
         <script src="" async defer></script>
     </body>
